@@ -1,0 +1,44 @@
+.category {
+    width: 180px;
+    label {
+        display: flex;
+        .iCheckbox {
+            margin-right: 5px;
+        }
+    }
+
+
+    form {
+        display:flex;
+        align-items: center;
+        .iText {
+            width: 150px;
+            padding: 0px 3px;
+            border-radius: 5px;
+        }
+        button {
+            padding: 0px;
+            margin: 0px;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            margin-left: 3px;
+            display: flex;
+            align-items: center;
+
+            .modify {
+                color:rgb(60, 60, 60);
+                &:hover {
+                    color:rgb(0, 170, 0);
+                }
+            }
+
+            .delete {
+                color:rgb(200, 0, 0);
+                &:hover {
+                    color:rgb(240, 0, 0);
+                }
+            }
+        }
+    }
+}

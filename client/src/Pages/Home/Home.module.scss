@@ -1,0 +1,81 @@
+.search {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+    input {
+        width: 50%;
+        max-width: 500px;
+        padding: 5px 15px;
+        border-radius: 20px;
+        border: none;
+        
+    }
+}
+
+.category {
+    margin: 10px 0px;
+    width: 100%;
+    max-width: 800px;
+    .title {
+        font-size: 2rem;
+        margin:10px 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        button {
+            padding: 0px;
+            font-size: 1.5rem;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            i {
+                &:hover {
+                    color:rgb(200, 0, 0);
+                }
+            }
+        }
+    }
+    .categoryList {
+        display: flex;
+        flex-wrap: wrap;
+        gap:20px;
+    }
+}
+
+.motdepasse {
+    margin: 10px 0px;
+    width: 100%;
+    max-width: 1200px;
+    .title {
+        font-size: 2rem;
+        margin:10px 0px;
+    }
+    .motdepasseList {
+        width: 100%;
+        tr:nth-child(odd) {
+            background-color: rgb(220, 220, 220);
+        }
+    }
+    .addMotdepasse {
+        padding:5px;
+        button {
+            padding: 0px;
+            margin: 0px;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            margin-left: 3px;
+            display: flex;
+            align-items: center;
+            font-size: 1.2rem;
+            i {
+                color:rgb(0, 150, 0);
+                &:hover {
+                    color:rgb(0, 190, 0);
+                }
+            }
+        }
+    }
+}
+

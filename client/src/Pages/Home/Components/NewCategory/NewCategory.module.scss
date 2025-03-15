@@ -1,0 +1,29 @@
+.category {
+    width: 180px;
+    form {
+        display:flex;
+        align-items: center;
+        .iText {
+            width: 150px;
+            padding: 0px 3px;
+            border-radius: 5px;
+        }
+        button {
+            padding: 0px;
+            margin: 0px;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            margin-left: 3px;
+            display: flex;
+            align-items: center;
+
+            i {
+                color:rgb(0, 150, 0);
+                &:hover {
+                    color:rgb(0, 190, 0);
+                }
+            }
+        }
+    }
+}
