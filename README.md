@@ -1,3 +1,3 @@
-Front - Javascript / React
+Client - Javascript / React
 
-Back - Python / FastAPI
+Server - Python / FastAPI
